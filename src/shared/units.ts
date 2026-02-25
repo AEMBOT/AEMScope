@@ -700,6 +700,9 @@ export namespace Units {
     Rotation2d: {
       value: "radians"
     },
+    "Rotation2dMut": {
+      value: "radians"
+    },
     Translation2d: {
       x: "meters",
       y: "meters"

@@ -365,7 +365,7 @@ const Field3dController_Config: SourceListConfig = {
       showInTypeName: true,
       color: "#000000",
       darkColor: "#ffffff",
-      sourceTypes: ["Rotation2d", "Rotation3d"],
+      sourceTypes: ["Rotation2d", "Rotation2dMut", "Rotation3d"],
       showDocs: true,
       options: [],
       childOf: "robot",

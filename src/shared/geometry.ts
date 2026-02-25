@@ -242,6 +242,7 @@ export function grabPosesAuto(
         return [];
       }
     case "Rotation2d":
+    case "Rotation2dMut":
       return grabRotation2d(log, key, timestamp, uuid);
     case "Rotation3d":
       return grabRotation3d(log, key, timestamp, uuid);
