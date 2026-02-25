@@ -66,6 +66,7 @@ const Field2dController_Config: SourceListConfig = {
             { key: "Pose2d", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
+            { key: "Translation2dMut", display: "2D Translation(s)" },
             { key: "Translation3d", display: "3D Translation(s)" }
           ]
         },
@@ -135,6 +136,7 @@ const Field2dController_Config: SourceListConfig = {
             { key: "Pose2d", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
+            { key: "Translation2dMut", display: "2D Translation(s)" },
             { key: "Translation3d", display: "3D Translation(s)" }
           ]
         },
@@ -169,8 +171,10 @@ const Field2dController_Config: SourceListConfig = {
         "Transform2d[]",
         "Transform3d[]",
         "Translation2d",
+        "Translation2dMut",
         "Translation3d",
         "Translation2d[]",
+        "Translation2dMut[]",
         "Translation3d[]"
       ],
       showDocs: true,
@@ -226,6 +230,7 @@ const Field2dController_Config: SourceListConfig = {
             { key: "Pose2d", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
+            { key: "Translation2dMut", display: "2D Translation(s)" },
             { key: "Translation3d", display: "3D Translation(s)" }
           ]
         }
@@ -344,6 +349,7 @@ const Field2dController_Config: SourceListConfig = {
         "Transform2d[]",
         "Transform3d[]",
         "Translation2d[]",
+        "Translation2dMut[]",
         "Translation3d[]",
         "Trajectory",
         "DifferentialSample[]",
@@ -401,6 +407,7 @@ const Field2dController_Config: SourceListConfig = {
             { key: "Pose2d", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
+            { key: "Translation2dMut", display: "2D Translation(s)" },
             { key: "Translation3d", display: "3D Translation(s)" }
           ]
         }
@@ -424,8 +431,10 @@ const Field2dController_Config: SourceListConfig = {
         "Transform2d[]",
         "Transform3d[]",
         "Translation2d",
+        "Translation2dMut",
         "Translation3d",
         "Translation2d[]",
+        "Translation2dMut[]",
         "Translation3d[]"
       ],
       showDocs: true,
@@ -477,6 +486,7 @@ const Field2dController_Config: SourceListConfig = {
             { key: "Pose2d", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
+            { key: "Translation2dMut", display: "2D Translation(s)" },
             { key: "Translation3d", display: "3D Translation(s)" }
           ]
         }
@@ -549,6 +559,7 @@ const Field2dController_Config: SourceListConfig = {
             { key: "Pose2d", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
+            { key: "Translation2dMut", display: "2D Translation(s)" },
             { key: "Translation3d", display: "3D Translation(s)" }
           ]
         },

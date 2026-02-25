@@ -60,7 +60,7 @@ const PointsController_Config: SourceListConfig = {
       showInTypeName: true,
       color: "#000000",
       darkColor: "#ffffff",
-      sourceTypes: ["Translation2d", "Translation2d[]", "NumberArray"],
+      sourceTypes: ["Translation2d", "Translation2d[]", "Translation2dMut", "Translation2dMut[]", "NumberArray"],
       showDocs: true,
       options: [
         {
@@ -94,7 +94,7 @@ const PointsController_Config: SourceListConfig = {
       showInTypeName: true,
       color: "#000000",
       darkColor: "#ffffff",
-      sourceTypes: ["Translation2d", "Translation2d[]", "NumberArray"],
+      sourceTypes: ["Translation2d", "Translation2d[]", "Translation2dMut", "Translation2dMut[]", "NumberArray"],
       showDocs: true,
       options: [
         {

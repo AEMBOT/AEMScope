@@ -253,10 +253,12 @@ export function grabPosesAuto(
       return grabRotation3dArray(log, key, timestamp, uuid);
     case "TargetCorner:16f6ac0dedc8eaccb951f4895d9e18b6[]":
       return grabTargetCornerArray(log, key, timestamp, uuid);
+    case "Translation2dMut":
     case "Translation2d":
       return grabTranslation2d(log, key, timestamp, uuid);
     case "Translation3d":
       return grabTranslation3d(log, key, timestamp, uuid);
+    case "Translation2dMut[]":
     case "Translation2d[]":
       return grabTranslation2dArray(log, key, timestamp, uuid);
     case "Translation3d[]":
