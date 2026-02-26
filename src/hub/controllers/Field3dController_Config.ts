@@ -24,8 +24,10 @@ const Field3dController_Config: SourceListConfig = {
       darkColor: "#ffffff",
       sourceTypes: [
         "Pose2d",
+        "Pose2dMut",
         "Pose3d",
         "Pose2d[]",
+        "Pose2dMut[]",
         "Pose3d[]",
         "Transform2d",
         "Transform3d",
@@ -67,6 +69,7 @@ const Field3dController_Config: SourceListConfig = {
           showInTypeName: false,
           values: [
             { key: "Pose2d", display: "2D Pose(s)" },
+            { key: "Pose2dMut", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
             { key: "Translation2dMut", display: "2D Translation(s)" },
@@ -96,8 +99,10 @@ const Field3dController_Config: SourceListConfig = {
       color: "color",
       sourceTypes: [
         "Pose2d",
+        "Pose2dMut",
         "Pose3d",
         "Pose2d[]",
+        "Pose2dMut[]",
         "Pose3d[]",
         "Transform2d",
         "Transform3d",
@@ -150,6 +155,7 @@ const Field3dController_Config: SourceListConfig = {
           showInTypeName: false,
           values: [
             { key: "Pose2d", display: "2D Pose(s)" },
+            { key: "Pose2dMut", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
             { key: "Translation2dMut", display: "2D Translation(s)" },
@@ -225,8 +231,10 @@ const Field3dController_Config: SourceListConfig = {
       color: "color",
       sourceTypes: [
         "Pose2d",
+        "Pose2dMut",
         "Pose3d",
         "Pose2d[]",
+        "Pose2dMut[]",
         "Pose3d[]",
         "Transform2d",
         "Transform3d",
@@ -290,6 +298,7 @@ const Field3dController_Config: SourceListConfig = {
           showInTypeName: false,
           values: [
             { key: "Pose2d", display: "2D Pose(s)" },
+            { key: "Pose2dMut", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
             { key: "Translation2dMut", display: "2D Translation(s)" },
@@ -455,6 +464,7 @@ const Field3dController_Config: SourceListConfig = {
       color: "color",
       sourceTypes: [
         "Pose2d[]",
+        "Pose2dMut[]",
         "Pose3d[]",
         "Transform2d[]",
         "Transform3d[]",
@@ -515,6 +525,7 @@ const Field3dController_Config: SourceListConfig = {
           showInTypeName: false,
           values: [
             { key: "Pose2d", display: "2D Pose(s)" },
+            { key: "Pose2dMut", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
             { key: "Translation2dMut", display: "2D Translation(s)" },
@@ -533,8 +544,10 @@ const Field3dController_Config: SourceListConfig = {
       color: "#ff0000",
       sourceTypes: [
         "Pose2d",
+        "Pose2dMut",
         "Pose3d",
         "Pose2d[]",
+        "Pose2dMut[]",
         "Pose3d[]",
         "Transform2d",
         "Transform3d",
@@ -594,6 +607,7 @@ const Field3dController_Config: SourceListConfig = {
           showInTypeName: false,
           values: [
             { key: "Pose2d", display: "2D Pose(s)" },
+            { key: "Pose2dMut", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
             { key: "Translation2dMut", display: "2D Translation(s)" },
@@ -694,8 +708,10 @@ const Field3dController_Config: SourceListConfig = {
       color: "color",
       sourceTypes: [
         "Pose2d",
+        "Pose2dMut",
         "Pose3d",
         "Pose2d[]",
+        "Pose2dMut[]",
         "Pose3d[]",
         "Transform2d",
         "Transform3d",
@@ -756,6 +772,7 @@ const Field3dController_Config: SourceListConfig = {
           showInTypeName: false,
           values: [
             { key: "Pose2d", display: "2D Pose(s)" },
+            { key: "Pose2dMut", display: "2D Pose(s)" },
             { key: "Pose3d", display: "3D Pose(s)" },
             { key: "Translation2d", display: "2D Translation(s)" },
             { key: "Translation2dMut", display: "2D Translation(s)" },

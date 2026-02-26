@@ -264,12 +264,14 @@ export function grabPosesAuto(
     case "Translation3d[]":
       return grabTranslation3dArray(log, key, timestamp, uuid);
     case "Pose2d":
+    case "Pose2dMut":
     case "Transform2d":
       return grabPose2d(log, key, timestamp, uuid);
     case "Pose3d":
     case "Transform3d":
       return grabPose3d(log, key, timestamp, uuid);
     case "Pose2d[]":
+    case "Pose2dMut[]":
     case "Transform2d[]":
       return grabPose2dArray(log, key, timestamp, uuid);
     case "Pose3d[]":
